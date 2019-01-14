@@ -9,13 +9,14 @@ title: Projects and Presentations
 	<p>My graduate school thesis involved an in-depth study of malware preservation. The <a href="https://www.nyu.edu/tisch/preservation/program/student_work/2016spring/16s_thesis_farbowitz_final.pdf" target="new">full text</a> of the thesis is currently available through the NYU Moving Image Archiving and Preservation program's digital archive. You can also read a short article that summarizes my thesis research on <a href="https://theconversation.com/why-save-a-computer-virus-56967" target=new>The Conversation.</a></p>
 		<p>I was previously involved in the development of vrecord, open source software for archival videotape digitization. <a href="https://github.com/amiaopensource/vrecord" target="new">Check it out.</a></p>
 	</div>
-
-<ul class="posts">
+<div class="past projects">
 	<h1>Past Projects, Presentations, and Workshops</h1>
+<ul class="posts">
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+</div>
 	<div class="assessments">
 		<h1>Collection and Preservation Assessments</h1>
 		<p><strong>Assessment of Moving Image Items at the Bancroft Library</strong><br>
